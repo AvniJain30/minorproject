@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.minorproject">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Minorproject"
+        tools:targetApi="31">
+        <activity
+            android:name=".sat_add"
+            android:exported="false" />
+        <activity
+            android:name=".fri_add"
+            android:exported="false" />
+        <activity
+            android:name=".thurs_add"
+            android:exported="false" />
+        <activity
+            android:name=".wed_add"
+            android:exported="false" />
+        <activity
+            android:name=".tues_add"
+            android:exported="false" />
+        <activity
+            android:name=".saturday"
+            android:exported="false" />
+        <activity
+            android:name=".friday"
+            android:exported="false" />
+        <activity
+            android:name=".thursday"
+            android:exported="false" />
+        <activity
+            android:name=".wednesday"
+            android:exported="false" />
+        <activity
+            android:name=".tuesday"
+            android:exported="false" />
+        <activity
+            android:name=".mon_add"
+            android:exported="false" />
+        <activity
+            android:name=".monday"
+            android:exported="false" />
+        <activity
+            android:name=".calendar"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

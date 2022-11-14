@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">minorproject</string>
+    <string name="day">Day</string>
+    <string name="TimeTable">Time Table</string>
+    <string name="task_content">Fill the details below to schedule a lecture</string>
+</resources>
